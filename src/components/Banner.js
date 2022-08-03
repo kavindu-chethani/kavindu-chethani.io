@@ -57,13 +57,14 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Kavindu Chethani`} <span className="txt-rotate" dataPeriod="1000" 
-                data-rotate='[ "Developer", "Under graduate" ]'>
+                data-rotate='[ "Developer", "Under graduate"]'>
                   <span className="wrap">{text}
                   </span>
                   </span>
                   </h1>
-                  <p></p>
-                  <p></p>
+                  <p>I'm a Third-year undergraduate student from University of SLIIT,
+                     Faculty of Computing. I’m reading for BSc.(Hons) in Information Technology(special).</p>
+                  <p>I'm Intresting in Web Development, Mobile Development and front-end Development</p>
                   <p></p>
                   <p></p>
                   <span className="wrap">
@@ -76,14 +77,12 @@ export const Banner = () => {
               </div>}
             </TrackVisibility>
           </Col>
-          {/* <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+          <Col xs={12} md={6} xl={5}>
+                <div>
                   <img src={me} />
-                </div>}
-            </TrackVisibility>
-          </Col> */}
+                </div>
+           
+          </Col> 
         </Row>
       </Container>
     </section>

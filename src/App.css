@@ -233,11 +233,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 340px 0 100px 0;
+  padding: 150px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 .banner .tagline {
   font-weight: 700;
@@ -283,7 +283,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  margin-top: -10;
 }
 @keyframes updown {
     0% {
@@ -310,7 +310,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 50px 50px;
-  margin-top: -80px;
+  margin-top: -120px;
 }
 .skill h2 {
 	font-size: 45px;
