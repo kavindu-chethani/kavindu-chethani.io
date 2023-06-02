@@ -64,7 +64,7 @@ export const Banner = () => {
                   </h1>
                   <p>I'm an undergraduate student from SriLanka Institute of Information Technology(SLIIT),
                      Faculty of Computing. I’m reading for BSc.(Hons) in Information Technology(special).</p>
-                  <p>I'm Intresting in Web Development, Mobile Development and front-end Development</p>
+                  <p>I'm Intresting in  Web Development, Mobile Development , front-end Development , UI/UX and QA engineering</p>
                   <p></p>
                   <p></p>
                   <span className="wrap">
