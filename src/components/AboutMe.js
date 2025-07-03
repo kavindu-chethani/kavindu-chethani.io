@@ -19,7 +19,7 @@ return (
               <div >
                 <h2>About Me</h2>
                 <p>Hi there, I'm Kavindu Chethani </p>
-                <p>Bcs(Hons)Information Technology (special)-SLIIT undergraduate</p>
+                <p>Bcs(Hons)Information Technology (special)-SLIIT graduated</p>
                 <p>Graduate Diploma in Software Engineering-IJSE</p>
                 
               </div>}
